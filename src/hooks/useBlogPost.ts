@@ -30,3 +30,5 @@ export function useBlogPost(slug: string) {
 
   return { post, loading, error, refetch: () => fetchPost() }
 }
+
+

@@ -514,3 +514,5 @@ export async function deleteBlogPost(id: string): Promise<void> {
   
   mockPosts.splice(index, 1)
 }
+
+
